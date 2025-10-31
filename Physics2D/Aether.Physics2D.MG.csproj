@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <EnableDefaultItems>false</EnableDefaultItems>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
@@ -158,10 +158,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.Portable" Version="3.2.99.1-Beta" PrivateAssets="All">
-      <ExcludeAssets>*</ExcludeAssets>
-      <NoWarn>NU1701</NoWarn>
-    </PackageReference>
+		<PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.4.1" />
   </ItemGroup>
 
   <ItemGroup>
